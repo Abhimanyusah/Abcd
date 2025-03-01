@@ -1,0 +1,17 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(211, 204, 204);
+}
+
+/* #sidebar{
+    position: fixed;
+    top: 56px;
+
+} */
+.required::after {
+    content: "*";
+    color: red;
+    font-size: 20px;
+}
