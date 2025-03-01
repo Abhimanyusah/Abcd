@@ -70,7 +70,7 @@ $(document).ready(function () {
            <strong>Pincode:</strong> ${Pincode} <br>`
         );
 
-        $("form")[0].reset();
+        $("#userForm").val("");
       }
     } else {
       alert("Please fill out all required fields before submitting the form.");
