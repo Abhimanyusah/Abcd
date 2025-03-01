@@ -110,7 +110,7 @@ $(document).ready(function () {
           fileReader.readAsDataURL(fileInput);
         }
 
-        $("form")[0].reset();
+        $("#userForm").val("");
         clearFilePreview();
       }
     } else {
